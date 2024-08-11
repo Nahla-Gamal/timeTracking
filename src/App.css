@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  gap: 20px;
+  background-color: hsl(226, 43%, 10%);
+}
+@media only screen and (max-width: 750px) {
+  main {
+    flex-direction: column;
+    padding: 40px 15px;
+  }
+}
+
+.section-content {
+  width: 100%;
+  max-width: 1000px;
+}
+@media only screen and (max-width: 750px) {
+  .section-content{
+      max-width: 320px;
+  }
+}
